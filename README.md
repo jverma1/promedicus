@@ -17,6 +17,7 @@ I have chosen Spring Boot to create this application. The reason for choosing Sp
 
 # Application Assumptions
 * For Internal Admissions, source is not allowed in request payload. It is to handle silent ignore source for internal admissions.
+
 # How to run this application
 * Clone the git repo using following command
 
@@ -33,6 +34,9 @@ I have chosen Spring Boot to create this application. The reason for choosing Sp
 
 ``` ./gradlew bootRun```
 * Now application is started.
+
+# Postman collection
+I have provided postman collection (if you are using postman as REST client) for testing endpoints fast. 
 
 # Using application
 * **Create admission endpoint** for **internal** system using any Rest client (I have used Postman)
