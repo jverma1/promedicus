@@ -88,7 +88,7 @@ click send and you should get the following results
 [
     {
     	"id": 1,
-    	"admissionDate":"05/05/2023",
+    	"admissionDate":"05/05/2023 12:10:34",
     	"name":"John",
     	"dob":"08/01/1980",
     	"sex": "MALE",
@@ -96,7 +96,7 @@ click send and you should get the following results
     },
     {
     	"id": 2,
-    	"admissionDate":"05/05/2023",
+    	"admissionDate":"05/05/2023 12:11:10",
     	"name":"Victoria",
     	"dob":"08/01/1990",
     	"sex": "FEMALE",
@@ -125,7 +125,7 @@ click send and you should get the following results
 ```
 {
     "id": 2,
-    "admissionDate": "05/05/2023 04:10:10",
+    "admissionDate": "05/05/2023 12:11:10",
     "name": "Victoria",
     "dob": "03/01/1990",
     "sex": "FEMALE",
@@ -143,7 +143,7 @@ click send and you should get the following results
 
 
 # Testing
-JUnit 100% code coverage is provided for controller class(AdmissionController.java) and controller advice class(AdmissionExceptionAdvice.java) only. 
+JUnit 100% code coverage is provided for controller class(AdmissionController.java) and exception handler class(AdmissionExceptionHandler.java) only. 
 There is no JUnit coverage for repository class(AdmissionRepository.java) methods as repository is just an Interface and implementation is provided by JPA.
 
 # Out Of Scope
